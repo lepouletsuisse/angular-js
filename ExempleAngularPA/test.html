@@ -1,0 +1,8 @@
+<div class="center-block" ng-controller="testController">
+	<p>Ceci est la page de test.</p>
+	<!-- On bind ce champ sur la variable "monTest" grace à "ng-model". Le tout fait référence à "$scope.monTest" dans le javascript -->
+	<input ng-model="monTest" type="text" />
+	<br />
+	<br />
+	<p>Contenu de la variable monTest: <b>{{ monTest }}</b></p>
+</div>
